@@ -46,8 +46,6 @@ const Achievements = () => {
     }
   ];
 
-  const categories = ["All", "Academic", "Competition", "Sports", "Leadership"];
-
   return (
     <section id="achievements" className="section-padding bg-muted/30">
       <div className="container-custom">
@@ -56,21 +54,6 @@ const Achievements = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Recognition for excellence in academics, competitions, and leadership activities
           </p>
-        </div>
-
-        {/* Category Filters */}
-        <div className="flex justify-center mb-12">
-          <div className="flex flex-wrap gap-2">
-            {categories.map((category, index) => (
-              <Badge 
-                key={index}
-                variant={index === 0 ? "default" : "outline"}
-                className="px-4 py-2 cursor-pointer hover:bg-primary hover:text-primary-foreground transition-smooth"
-              >
-                {category}
-              </Badge>
-            ))}
-          </div>
         </div>
 
         {/* Achievements Grid */}

@@ -5,23 +5,19 @@ const About = () => {
   const highlights = [
     {
       icon: Brain,
-      title: "Analytical Thinking",
-      description: "Strong analytical mindset with expertise in data-driven decision making"
+      title: "Communication & Data Storytelling"
     },
     {
       icon: Users,
-      title: "Leadership",
-      description: "Project leadership experience and collaborative team player"
+      title: "Analytical Thinking & Problem-Solving"
     },
     {
       icon: Clock,
-      title: "Time Management",
-      description: "Efficient project delivery with strong organizational skills"
+      title: "Team Collaboration & Leadership"
     },
     {
       icon: GraduationCap,
-      title: "Continuous Learning",
-      description: "Always updating skills with latest technologies and methodologies"
+      title: "Time Management & Attention to Detail"
     }
   ];
 
@@ -69,23 +65,21 @@ const About = () => {
             </div>
           </div>
 
-          {/* Soft Skills Grid */}
-          <div className="grid sm:grid-cols-2 gap-6">
-            {highlights.map((item, index) => (
-              <Card key={index} className="group hover:shadow-elegant transition-smooth">
-                <CardHeader className="text-center">
-                  <div className="mx-auto mb-4 p-3 bg-primary/10 rounded-full w-fit group-hover:bg-primary/20 transition-smooth">
-                    <item.icon className="h-6 w-6 text-primary" />
+          {/* Soft Skills Section */}
+          <div className="space-y-8">
+            <div className="text-center">
+              <h3 className="text-2xl font-semibold text-primary mb-8">Soft Skills</h3>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {highlights.map((item, index) => (
+                <div key={index} className="text-center space-y-4 group">
+                  <div className="mx-auto p-4 w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center group-hover:scale-110 transition-smooth">
+                    <item.icon className="h-8 w-8 text-primary" />
                   </div>
-                  <CardTitle className="text-lg">{item.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-muted-foreground text-center">
-                    {item.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
+                  <h4 className="font-semibold text-lg leading-tight">{item.title}</h4>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

@@ -101,15 +101,11 @@ const Projects = () => {
           <Card className="max-w-2xl mx-auto p-8">
             <Users className="h-12 w-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-4">More Projects Coming Soon</h3>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-muted-foreground">
               I'm constantly working on new data science projects and expanding my portfolio. 
               Check back regularly for updates on my latest work in machine learning, 
               data visualization, and analytics.
             </p>
-            <Button>
-              <Github className="h-4 w-4 mr-2" />
-              View All on GitHub
-            </Button>
           </Card>
         </div>
       </div>
