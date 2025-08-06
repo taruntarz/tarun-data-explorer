@@ -17,10 +17,19 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Form submission logic would go here
+    
+    // Create email content
+    const emailSubject = encodeURIComponent(`Portfolio Contact: ${formData.subject}`);
+    const emailBody = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    );
+    
+    // Open default email client
+    window.location.href = `mailto:saragadamtarun96@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+    
     toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. I'll get back to you soon.",
+      title: "Email Client Opened!",
+      description: "Your default email client has been opened with the message details.",
     });
     setFormData({ name: '', email: '', subject: '', message: '' });
   };

@@ -58,8 +58,12 @@ const About = () => {
                   <p className="text-sm text-muted-foreground">Dhanalakshmi Srinivasan University, Trichy (2022–2026)</p>
                 </div>
                 <div className="border-l-4 border-accent pl-4">
-                  <h5 className="font-medium">JEE Mains Percentile: 85</h5>
-                  <p className="text-sm text-muted-foreground">Senior Secondary, Sri Chaitanya Junior College (2020–2022)</p>
+                  <h5 className="font-medium">Senior Secondary (12th) – Sri Chaitanya Junior College</h5>
+                  <p className="text-sm text-muted-foreground">2020 – 2022 | JEE Mains Percentile: 85</p>
+                </div>
+                <div className="border-l-4 border-success pl-4">
+                  <h5 className="font-medium">Secondary (10th) – ZPH School, Thotada</h5>
+                  <p className="text-sm text-muted-foreground">2019 – 2020</p>
                 </div>
               </div>
             </div>

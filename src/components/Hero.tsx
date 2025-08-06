@@ -1,7 +1,8 @@
-import { ArrowDown, Download, Mail, Phone, MapPin } from 'lucide-react';
+import { ArrowDown, Download, Mail, Phone, MapPin, LinkedinIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import heroImage from '@/assets/hero-bg.jpg';
+import profileImage from '@/assets/profile-image.jpg';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -28,6 +29,15 @@ const Hero = () => {
 
       <div className="container-custom relative z-10">
         <div className="text-center space-y-8">
+          {/* Profile Image */}
+          <div className="mx-auto w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden shadow-elegant">
+            <img 
+              src={profileImage} 
+              alt="Saragadam Tarun Profile" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+
           <div className="space-y-4">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-hero bg-clip-text text-transparent">
               Saragadam Tarun
@@ -64,6 +74,15 @@ const Hero = () => {
             >
               <Download className="h-4 w-4 mr-2" />
               Download Resume
+            </Button>
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => window.open('https://www.linkedin.com/in/saragadam-tarun-b50494336/', '_blank')}
+              className="transition-smooth hover:scale-105"
+            >
+              <LinkedinIcon className="h-4 w-4 mr-2" />
+              LinkedIn Profile
             </Button>
             <Button 
               variant="outline" 
