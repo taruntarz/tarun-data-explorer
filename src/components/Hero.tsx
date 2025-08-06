@@ -32,7 +32,7 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="mx-auto w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden shadow-elegant">
             <img 
-              src={profileImage} 
+              src="/lovable-uploads/dd8afa13-dba5-4086-bc3c-e606a563a0e6.png" 
               alt="Saragadam Tarun Profile" 
               className="w-full h-full object-cover"
             />
