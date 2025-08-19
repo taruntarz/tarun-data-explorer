@@ -32,7 +32,7 @@ const Footer = () => {
               Saragadam Tarun
             </h3>
             <p className="text-sm text-muted-foreground">
-              Data Science & Analytics Professional
+              AI Engineer & Gen AI Developer
             </p>
           </div>
 
