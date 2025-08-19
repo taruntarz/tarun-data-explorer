@@ -40,14 +40,10 @@ const About = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-primary">Professional Summary</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Detail-oriented and analytical B.Tech Computer Science student with hands-on experience in 
-              data analysis, machine learning, and data visualization. Proficient in Python, SQL, and Power BI. 
-              Strong in EDA, NLP, and dashboard development.
+              A detail-oriented and motivated Computer Science and Engineering undergraduate with strong expertise in Artificial Intelligence, Machine Learning, and Generative AI. Skilled in developing and deploying AI-driven solutions with hands-on experience in supervised/unsupervised learning, NLP, and AI agent development. Proficient in Python, SQL, and AI frameworks, with a passion for building intelligent systems that solve real-world problems.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Seeking an entry-level Data Analyst/Data Science role to contribute insights through 
-              data-driven decision making. Currently pursuing my degree while gaining practical experience 
-              through multiple internships and real-world projects.
+              Seeking an AI Engineer role to contribute to scalable AI model development and next-gen AI applications. Currently pursuing my degree while gaining practical experience through multiple internships and real-world AI projects.
             </p>
 
             <div className="space-y-4">

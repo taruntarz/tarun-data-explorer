@@ -18,8 +18,8 @@ const Skills = () => {
     },
     {
       icon: BarChart3,
-      title: "Data Science Concepts",
-      skills: ["Data Cleaning", "EDA", "Data Visualization", "ML (Supervised/Unsupervised)", "Clustering", "NLP", "Model Evaluation"],
+      title: "AI & ML",
+      skills: ["Supervised & Unsupervised Learning", "NLP", "Neural Networks", "Clustering", "Model Evaluation", "Feature Engineering"],
       color: "bg-success/10 text-success"
     },
     {
@@ -48,7 +48,7 @@ const Skills = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Technical Skills</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive skill set in data science, analytics, and modern development tools
+            Comprehensive skill set in AI, machine learning, and intelligent system development
           </p>
         </div>
 

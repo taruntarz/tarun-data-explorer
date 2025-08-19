@@ -43,7 +43,7 @@ const Hero = () => {
               Saragadam Tarun
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-              Data Science & Analytics Professional
+              AI Engineer | Smart AI Agent & Gen AI Developer
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               B.Tech Computer Science Student specializing in Data Analysis, Machine Learning, and Data Visualization
@@ -68,13 +68,6 @@ const Hero = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
-              className="gradient-hero hover:scale-105 transition-smooth font-semibold"
-            >
-              <Download className="h-4 w-4 mr-2" />
-              Download Resume
-            </Button>
             <Button 
               variant="outline" 
               size="lg"

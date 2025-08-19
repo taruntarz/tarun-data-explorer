@@ -6,6 +6,20 @@ import { ExternalLink, Github, Brain, TrendingUp, Users } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: "AI Task Automation Agent (Ongoing)",
+      description: "Developing an AI-powered agent that autonomously executes tasks using LLMs and automation frameworks. Integrating natural language understanding to interpret instructions and break them into executable steps.",
+      role: "AI Engineer",
+      icon: Brain,
+      technologies: ["Python", "LLMs", "NLP", "Automation Frameworks"],
+      highlights: [
+        "AI-powered agent that autonomously executes tasks using LLMs",
+        "Natural language understanding to interpret instructions",
+        "Decision-making logic and feedback loops for performance improvement",
+        "Applications in productivity tools and enterprise workflows"
+      ],
+      color: "bg-primary/10 text-primary border-primary/20"
+    },
+    {
       title: "AI-Based Job Skill Analytics System",
       description: "Developed an AI system to analyze job descriptions and resumes for skill match. Built Power BI dashboards for skill gap visualization and identified top 5 recurring skill gaps from candidate datasets.",
       role: "Project Lead",
@@ -41,7 +55,7 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Real-world applications of data science and analytics to solve complex problems
+            Real-world applications of AI and machine learning to build intelligent systems
           </p>
         </div>
 
